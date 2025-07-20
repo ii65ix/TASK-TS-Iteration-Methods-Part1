@@ -10,9 +10,10 @@ const numbers = [10, 13, 20, 25, 38, 35, 40];
 // example:
 // filteredAndSquared(numbers); // => [400, 625, 1444, 1225, 1600]
 function filteredAndSquared(numbers: number[]): number[] {
+  const arraythree:number []=numbers.filter((numbers)=> numbers >=20).map((numbers)=>numbers * numbers );
   // write your code here...
 
-  return []; // replace empty array with what you see is fit
+  return arraythree; // replace empty array with what you see is fit
 }
 
 // `filteredAndTripled` function that:
@@ -21,9 +22,10 @@ function filteredAndSquared(numbers: number[]): number[] {
 // example:
 // filteredAndTripled(numbers); // => [30, 60, 75, 105, 120]
 function filteredAndTripled(numbers: number[]): number[] {
+  const arrayfour : number[]= numbers.filter((num)=> num %5 ===0).map((num)=>num *3);
   // write your code here...
 
-  return []; // replace empty array with what you see is fit
+  return arrayfour ; // replace empty array with what you see is fit
 }
 
 export { filteredAndSquared, filteredAndTripled };

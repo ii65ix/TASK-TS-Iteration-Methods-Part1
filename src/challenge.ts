@@ -9,6 +9,7 @@
 // logger<number | string>([1, 2, 3, "one", "two", "three"]);
 function logger<T>(array: T[]): void {
   // write your code here...
+  logger
 }
 
 // `toCelsius` function that:
